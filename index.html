@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Recipe page</title>
+    <style>
+      @font-face {
+        font-family: "custom fonts";
+        src: url("./assets/fonts/young-serif/YoungSerif-Regular.ttf")
+          format("truetype");
+      }
+      body {
+        margin: 0;
+        padding: 0;
+        width: 100vw;
+        height: 100vh;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        font-family: "custom fonts";
+        align-items: center;
+        background-color: #f3e5d8;
+      }
+      .parent {
+        max-width: 550px;
+        border-radius: 15px;
+        margin-top: 100px;
+        background-color: white;
+        padding: 20px;
+      }
+      .first {
+        background-color: white;
+        max-width: 100%;
+      }
+      .first img {
+        width: 100%;
+        border-radius: 15px;
+      }
+      .headers p {
+        font-family: "outfit", sans-serif;
+        color: #a5a4a0;
+      }
+      .second {
+        background-color: #fff7fc;
+        padding: 10px;
+        line-height: 25px;
+      }
+      .second h2 {
+        color: #742f4b;
+        font-family: "outfit", sans-serif;
+      }
+      .second li {
+        font-family: "outfit", sans-serif;
+        color: #625a5a;
+      }
+      .second li strong {
+        color: #5d5555;
+      }
+      .third {
+        color: #5d5555;
+        font-family: "outfit";
+        line-height: 30px;
+      }
+      .third h2 {
+        color: #7d3f2a;
+        font-family: "custom fonts";
+      }
+      .fourth {
+        color: #5d5555;
+        font-family: "outfit";
+        line-height: 21px;
+      }
+      .fourth h2 {
+        color: #7d3f2a;
+        font-family: "custom fonts";
+      }
+      .fourth li {
+        margin: 5px 0;
+      }
+      .fifth {
+        font-family: "outfit";
+      }
+      .fifth h2 {
+        color: #7d3f2a;
+        font-family: "custom fonts";
+      }
+      .fifth p {
+        color: #5d5555;
+      }
+      .fifth table {
+        width: 100%;
+        color: #5d5555;
+      }
+      .fifth table strong {
+        color: #7d3f2a;
+      }
+      .fifth table tr {
+        border-bottom: 1px solid;
+      }
+    </style>
+  </head>
+  <body>
+    <main class="parent">
+      <section class="first">
+        <img src="./assets/images/image-omelette.jpeg" alt="banner logo" />
+        <div class="headers">
+          <h1>Simple Omelette Recipe</h1>
+          <p>
+            An easy and quick dish, perfect for any meal, This classic omelette
+            combines beaten eggs cooked to perfection, optionally filled with
+            your choice of cheese, vegetables, or meats.
+          </p>
+        </div>
+      </section>
+      <section class="second">
+        <h2>Prepation time</h2>
+        <ul>
+          <li><strong>Total:</strong> Approximately 10 mintues</li>
+          <li><strong>Preparation:</strong> 5 minutes</li>
+          <li><strong>Cooking:</strong> 5 minutes</li>
+        </ul>
+      </section>
+      <section class="third">
+        <h2>Ingredients</h2>
+        <ul>
+          <li>2-3 large eggs</li>
+          <li>Salt, to taste</li>
+          <li>Pepper, to taste</li>
+          <li>1 tablespoon of butter or oil</li>
+          <li>
+            Optional fillings:cheese, diced vegetables,cooked meats, herbs
+          </li>
+        </ul>
+      </section>
+      <section class="fourth">
+        <h2>Instructions</h2>
+        <ol>
+          <li>
+            <strong>Beat the eggs:</strong>in a bowl, beat the eggs witha pich
+            of salt and pepper until they are well mixed. You can add a
+            tablespoon of water or milk for a fluffier texture
+          </li>
+          <li>
+            <strong>Heat the pan:</strong>Place a non-stick frying pan over
+            medium heat and add butter or oil
+          </li>
+          <li>
+            <strong>Cook the omelette:</strong>Once the butter is melted and
+            bubbling pour the eggs, Tilt the pan to ensure the pan to ensure the
+            eggs evenly coat the surface
+          </li>
+          <li>
+            <strong>Fold and serve:</strong> When the eggs begain to sat at the
+            edges but are still sightly runny in the middle, sprinkle your
+            chosen things over on half of the omelette
+          </li>
+          <li>
+            <strong>Enjoy:</strong>Sever hot , with additional salt and pepper
+            if needed
+          </li>
+        </ol>
+      </section>
+      <section class="fifth">
+        <h2>Nutrition</h2>
+        <p>
+          The table below shows nutrients values per serving without the
+          additonal thigns
+        </p>
+        <table>
+          <tbody>
+            <tr>
+              <td>Colories</td>
+              <td><strong>277Kcal</strong></td>
+            </tr>
+            <tr>
+              <td>Carbs</td>
+              <td><strong>0g</strong></td>
+            </tr>
+            <tr>
+              <td>Protein</td>
+              <td><strong>20g</strong></td>
+            </tr>
+            <tr>
+              <td>Fat</td>
+              <td><strong>22g</strong></td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+    </main>
+  </body>
+</html>
